@@ -1,0 +1,19 @@
+<template name="layout">
+
+	<div class="wrapper">
+
+		<header>
+			<h1>{{greeting}}</h1>
+		</header>
+
+		<main>
+	    {{> yield}}
+	  </main>
+
+	</div>
+
+  <footer>
+  	<p>Written by Daniel Ström, using Meteor and Nodejs</p>
+  </footer>
+
+</template>

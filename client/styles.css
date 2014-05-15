@@ -1,1 +1,40 @@
-/* CSS declarations go here */
+
+* {
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+	background: snow;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -6em;
+}
+
+header, main, footer {
+	padding: 0.5em;
+}
+
+footer {
+	height: 6em;
+}
+
+header {
+	background: darkcyan;
+	overflow: auto;
+	height: 4em;
+}
+
+footer {
+	background: darkorange;
+	overflow: auto;
+}

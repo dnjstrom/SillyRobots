@@ -8,8 +8,8 @@
 */
 Arenas = new Meteor.Collection("arenas");
 
-Meteor.publish('arenas', function () {
-  return Arenas.find();
+Meteor.publish('arenas', function(query) {
+  return Arenas.find(query);
 });
 
 
